@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
+  <title>Zaijing's portfolio</title>
+</head>
+<body>
+   <img id="logo-top" src="Pictures/Intro and footer/Brand logo without font.png" alt="Brand Logo">
+    <div class="container">
+      <!-- Big container for all things -->
+      <div class="Intro">
+        <!-- Introduction part -->
+        <div class="font">
+          <!-- The font at left side -->
+          <h1>Hello, I'm Zaijing Liu</h1>
+          <h1 class="blue-text">
+          <span id="typing-text"></span> <!-- Correct element for typing effect -->
+          <span class="cursor">_</span> <!-- Blinking cursor -->
+          </h1>
+          <p>Pursuing a major in Computer Science with a Design minor, I'm passionate about crafting inclusive, 
+          user-centered experiences that prioritize equity and intuitive design.</p>
+        </div>
+        <div class="photo">
+          <!-- Photo at right side -->
+          <img src="Pictures/Intro and footer/Intro.jpg" alt="My photo">
+        </div>  
+      </div>
+    </div>
+
+      <!-- Navigation bar -->
+      <div class="nav">
+        <div class="nav-content">
+          <!-- Line at top of nav bar-->
+          <hr class="Top-line">
+          <nav class="nav-bar">
+            <ul>
+              <li><a href="#" onclick="loadPage('Home')" class="active">Home</a></li>
+              <li><a href="#" onclick="loadPage('Designs')">Designs</a></li>
+              <li><a href="#" onclick="loadPage('About me')">About me</a></li>
+              <li><a href="#" onclick="loadPage('Blog')">Memoir</a></li>
+            </ul>
+          </nav>
+          <!-- Line at bottom of nav bar -->
+          <hr class="Bottom-line">
+        </div>    
+      </div> 
+
+    <div class="container">
+       <!-- Each page show here -->
+      <main id="main-content">
+        <div id="content">
+        </div>
+      </main>
+
+      <!-- Footer show here -->
+      <div class="footer">
+        <div class="footer-left">
+          <!-- Logo at left side of footer -->
+          <img src="Pictures/Intro and footer/Brand logo without font.png" alt="Brand logo">
+        </div>
+        <div class="footer-right">
+          <!-- Info at right side of footer -->
+          <div class="email">
+            <img src="Pictures/Intro and footer/email_svgrepo.com.png" alt="Email logo">
+            <p>Chlora006@gmail.com </p>
+          </div>
+          <div class="career-logo">
+            <a href="https://www.linkedin.com/in/zaijing-liu-161275271/" target="_blank">
+               <img src="Pictures/Intro and footer/Linkedin.png" alt="Linkedin">
+            </a>
+            <a href="https://www.instagram.com/chloraliu" target="_blank">
+              <img src="Pictures/Intro and footer/Instagram.png" alt="Instagram">
+            </a>
+            <a href="https://github.com/Chlora06" target="_blank">
+              <img src="Pictures/Intro and footer/GitHub.png" alt="GitHub">
+            </a>  
+          </div>
+        </div>
+      </div>  
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

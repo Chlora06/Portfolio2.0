@@ -1,0 +1,115 @@
+[
+  {
+    "id": "post1",
+    "title": "Play in Universal studio",
+    "coverImage": "Pictures/Blog/cover1.jpg",
+    "date": "10/27/2024",
+    "images": [
+      "Pictures/Blog/Blog details/1/1.jpg",
+      "Pictures/Blog/Blog details/1/2.jpg",
+      "Pictures/Blog/Blog details/1/3.jpg",
+      "Pictures/Blog/Blog details/1/4.jpg"
+    ]
+  },
+  {
+    "id": "post2",
+    "title": "Visit Getty center",
+    "coverImage": "Pictures/Blog/Blog details/2/3.jpg",
+    "date": "10/26/2024",
+    "images": [
+      "Pictures/Blog/Blog details/2/1.jpg",
+      "Pictures/Blog/Blog details/2/2.jpg",
+      "Pictures/Blog/Blog details/2/3.jpg",
+      "Pictures/Blog/Blog details/2/4.jpg",
+      "Pictures/Blog/Blog details/2/5.jpg",
+      "Pictures/Blog/Blog details/2/6.jpg",
+      "Pictures/Blog/Blog details/2/7.jpg",
+      "Pictures/Blog/Blog details/2/8.jpg",
+      "Pictures/Blog/Blog details/2/9.jpg"
+    ]
+  },
+  {
+    "id": "post3",
+    "title": "On the way to Los Angeles",
+    "coverImage": "Pictures/Blog/cover3.jpg",
+    "date": "10/25/2024",
+    "images": [
+      "Pictures/Blog/Blog details/3/1.jpg",
+      "Pictures/Blog/Blog details/3/2.jpg",
+      "Pictures/Blog/Blog details/3/3.jpg"
+    ]
+  },
+  {
+    "id": "post4",
+    "title": "A good day in Filoli",
+    "coverImage": "Pictures/Blog/cover4.jpg",
+    "date": "08/18/2024",
+    "images": [
+      "Pictures/Blog/Blog details/4/1.jpg",
+      "Pictures/Blog/Blog details/4/2.jpg",
+      "Pictures/Blog/Blog details/4/3.jpg",
+      "Pictures/Blog/Blog details/4/4.jpg"
+    ]
+  },
+  {
+    "id": "post5",
+    "title": "Picture in Filoli",
+    "coverImage": "Pictures/Blog/cover5.jpg",
+    "date": "05/29/2024",
+    "images": [
+      "Pictures/Blog/Blog details/5/1.jpg",
+      "Pictures/Blog/Blog details/5/2.jpg",
+      "Pictures/Blog/Blog details/5/3.jpg",
+      "Pictures/Blog/Blog details/5/4.jpg"
+    ]
+  },
+  {
+    "id": "post6",
+    "title": "Be an cosplay model in a Hanfu activity",
+    "coverImage": "Pictures/Blog/cover6.jpg",
+    "date": "05/29/2024",
+    "images": [
+      "Pictures/Blog/Blog details/6/1.jpg",
+      "Pictures/Blog/Blog details/6/2.jpg",
+      "Pictures/Blog/Blog details/6/3.jpg",
+      "Pictures/Blog/Blog details/6/4.jpg",
+      "Pictures/Blog/Blog details/6/5.jpg"
+    ]
+  },
+  {
+    "id": "post7",
+    "title": "Take photos at filoli",
+    "coverImage": "Pictures/Blog/cover7.jpg",
+    "date": "05/15/2024",
+    "images": [
+      "Pictures/Blog/Blog details/7/1.jpg",
+      "Pictures/Blog/Blog details/7/2.jpg",
+      "Pictures/Blog/Blog details/7/3.jpg",
+      "Pictures/Blog/Blog details/7/4.jpg"
+    ]
+  },
+  {
+    "id": "post8",
+    "title": "Preparing to attend Miku’s concert",
+    "coverImage": "Pictures/Blog/cover8.jpg",
+    "date": "04/08/2024",
+    "images": [
+      "Pictures/Blog/Blog details/8/1.jpg",
+      "Pictures/Blog/Blog details/8/2.jpg",
+      "Pictures/Blog/Blog details/8/3.jpg"
+    ]
+  },
+  {
+    "id": "post9",
+    "title": "Attend comic conventions",
+    "coverImage": "Pictures/Blog/cover9.jpg",
+    "date": "2/9/2024",
+    "images": [
+      "Pictures/Blog/Blog details/9/1.jpg",
+      "Pictures/Blog/Blog details/9/2.jpg",
+      "Pictures/Blog/Blog details/9/3.jpg",
+      "Pictures/Blog/Blog details/9/4.jpg"
+    ]
+  }
+  
+]
