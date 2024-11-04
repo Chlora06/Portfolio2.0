@@ -1,5 +1,5 @@
 .about-container{
-  padding-bottom: 12vh;
+  padding-bottom: 5vh;
 }
 .picture{
   position: relative;
@@ -55,9 +55,6 @@ h3{
 }
 
 @media (min-width: 769px) and (max-width: 1024px){
-  .about-container{
-    padding-bottom: 10vh;
-  }
   :root{
     --container-margin: 5%;
   }
@@ -80,9 +77,6 @@ h3{
 
 }
 @media (max-width:768px){
-  .about-container{
-    padding-bottom: 5vh;
-  }
   .picture{
     margin-left: -5vw;
     margin-right: -5vw;
