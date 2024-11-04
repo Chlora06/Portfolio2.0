@@ -202,11 +202,13 @@ body{
   .Intro{
     flex-direction: column;
     padding-bottom: 5vh;
+    height: auto;
   }
   .font{
     max-width: 100%;
   }
   .photo{
+    margin-top: 5%;
     max-width: 100%;
   }
   .font h1{
