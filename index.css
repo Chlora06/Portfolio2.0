@@ -175,7 +175,6 @@ body{
 
  
 /* Responsive design */
-
 @media (min-width: 769px) and (max-width: 1024px){
   :root{
     --container-margin: 5%;
