@@ -90,3 +90,75 @@
   width: 95%;
 }
 
+@media (min-width: 769px) and (max-width: 1024px){
+  .home-container{
+    padding-bottom: 10vh;
+  }
+  :root{
+    --container-margin: 5%;
+  }
+  .quote{
+    font-size: 1rem;
+  }
+  .design-philosophy{
+    margin-left: -5vw;
+    margin-right: -5vw;
+  }
+  .content h1{
+  font-size: 1.25rem;
+  
+  font-weight: 700;
+  }
+  .content p{
+  font-size: 1rem;
+  line-height: 1.75rem;
+  }
+  .design-philosophy .content{
+  width: 50%;
+  }
+  .Illustrator{
+  margin-top: 20vh;
+  width: 40%;
+  height: auto;
+  }
+  
+}
+@media (max-width:768px){
+  .home-container{
+    padding-bottom: 5vh;
+  }
+  .quote{
+    font-size: 1rem;
+  }
+  .design-philosophy{
+    margin-left: -5vw;
+    margin-right: -5vw;
+  }
+  .inside{
+    flex-direction: column;
+  }
+  .design-philosophy .content{
+    width: 100%;
+  }
+  .content h1{
+    font-size: 1.25rem;
+    font-weight: 700;
+  }
+  .content p{
+    font-size: 1rem;
+    line-height: 1.75rem;
+  }
+  .Illustrator{
+    margin-top: 3vh;
+    width: 100%;
+    height: auto;
+  }
+  .process-image img{
+    width: 100%;
+  }
+  .project-image{
+    flex-direction: column;
+
+  }
+  
+}

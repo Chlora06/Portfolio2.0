@@ -174,3 +174,75 @@ body{
 }
 
  
+/* Responsive design */
+
+@media (min-width: 769px) and (max-width: 1024px){
+  :root{
+    --container-margin: 5%;
+  }
+  .font h1{
+    font-size:1.75rem;
+  }
+  .font p{
+    font-size: 1.25rem;
+  }
+  .nav a{
+    font-size: 1.25rem;
+  }
+}
+@media (max-width:768px){
+  :root {
+    --container-margin: 5%;
+  }
+  #logo-top {
+    margin: 20px;
+    width: 50px;
+    height: auto;
+  }
+  .Intro{
+    flex-direction: column;
+    padding-bottom: 5vh;
+  }
+  .font{
+    max-width: 100%;
+  }
+  .photo{
+    max-width: 100%;
+  }
+  .font h1{
+    font-size:1.5rem;
+  }
+  .font p{
+    font-size: 1.25rem;
+  }
+  .nav a{
+    font-size: 1rem;
+  }
+  .nav-bar{
+    max-width: 100%;
+    padding: 0.5rem 0;
+  }
+  .Bottom-line{
+    width: 100%;  
+  }
+  #main-content{
+    margin-top: 5vh;
+  }
+  /* Footer */
+  .footer{
+    align-items: center;
+  }
+  .footer-left{
+    max-width: 50px;
+  }
+  .email img{
+    width: 25px;
+  }
+  .email p{
+    line-height: 0.75rem;
+  }
+  .footer-right{
+    margin-right: 0;
+  }
+  
+}

@@ -11,6 +11,7 @@
 /* Post Card Styles */
 .post-card {
   width: 80%;
+
   border-radius: 20px;
   overflow: hidden;
   cursor: pointer;
@@ -19,6 +20,11 @@
   color: #333;
   padding: 20px 20px 50px 20px;
   font-weight: 400;
+  transition: transform 0.3 ease-in;
+  
+}
+.post-card:hover{
+  transform: scale(1.05);
 }
 .post-date{
   color: #B2B2B2;
@@ -26,7 +32,7 @@
 }
 .post-title{
   font-size: 1rem;
-  font-weight: 400;
+  font-weight: 500;
 }
 .post-card img {
   border-radius: 15px;
@@ -102,3 +108,26 @@
   color: #B2B2B2;
 }
 
+@media (min-width: 769px) and (max-width: 1024px){
+  .post-container{
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .post-title{
+    font-size: 0.75rem;
+  }
+  .post-card img{
+    height: 150px;
+  }
+}
+@media (max-width:768px){
+  .post-container{
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3%;
+  }
+  .post-title{
+    font-size: 0.75rem;
+  }
+  .post-card img{
+    height: 100px;
+  }
+}
