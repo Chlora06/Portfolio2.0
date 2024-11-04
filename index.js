@@ -1,25 +1,3 @@
-
-document.addEventListener("DOMContentLoaded", () => {
-  // Start typing animation
-  startTypingAnimation();
-
-  // Initialize page with Home content
-  loadPage("Home");
-  setActiveLink("Home");
-
-  // Set up event listeners for navigation links
-  const navLinks = document.querySelectorAll(".nav-bar a");
-  navLinks.forEach((link) => {
-    link.addEventListener("click", function (event) {
-      event.preventDefault();
-      const pageName =
-        this.getAttribute("onclick").match(/loadPage\('(.*)'\)/)[1];
-      loadPage(pageName);
-      setActiveLink(pageName);
-    });
-  });
-});
-
 // Typing animation function
 function startTypingAnimation() {
   const text = "A UX designer";
@@ -47,8 +25,30 @@ function startTypingAnimation() {
   typeText(); // Start typing
 }
 
-// Function to load the page content dynamically
-function loadPage(pageName) {
+document.addEventListener("DOMContentLoaded", () => {
+  // Start typing animation
+  startTypingAnimation();
+
+  // Initialize page with Home content
+  loadPage("Home", false);
+  setActiveLink("Home");
+
+  // Set up event listeners for navigation links
+  const navLinks = document.querySelectorAll(".nav-bar a");
+  navLinks.forEach((link) => {
+    link.addEventListener("click", function (event) {
+      event.preventDefault();
+      const pageName =
+        this.getAttribute("onclick").match(/loadPage\('(.*)'\)/)[1];
+
+      loadPage(pageName, true);
+      setActiveLink(pageName);
+    });
+  });
+});
+
+
+function loadPage(pageName, scrollToNav = false) {
   const pageFile = `${pageName}.html`;
   const contentDiv = document.getElementById("content");
 
@@ -65,21 +65,23 @@ function loadPage(pageName) {
         loadBlogPosts();
       }
 
-      // Smooth scroll to position right before nav becomes sticky
-      setTimeout(() => {
-        const introElement = document.querySelector(".Intro");
-        const navElement = document.querySelector(".nav");
+      // Scroll to position only if user clicked navigation link
+      if (scrollToNav) {
+        setTimeout(() => {
+          const introElement = document.querySelector(".Intro");
+          const navElement = document.querySelector(".nav");
 
-        if (introElement && navElement) {
-          const scrollToPosition =
-            introElement.offsetHeight - navElement.offsetHeight;
+          if (introElement && navElement) {
+            const scrollToPosition =
+              introElement.offsetHeight - navElement.offsetHeight;
 
-          window.scrollTo({
-            top: scrollToPosition,
-            behavior: "smooth",
-          });
-        }
-      }, 100); // Delay to ensure content is fully loaded
+            window.scrollTo({
+              top: scrollToPosition,
+              behavior: "smooth",
+            });
+          }
+        }, 100); // Delay to ensure content is fully loaded
+      }
     })
     .catch((error) => {
       contentDiv.innerHTML = `
