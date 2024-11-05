@@ -1,7 +1,7 @@
 [
   {
     "id": "post1",
-    "title": "Play in Universal studio",
+    "title": "Visiting Universal Studios",
     "coverImage": "Pictures/Blog/cover1.jpg",
     "date": "10/27/2024",
     "images": [
@@ -13,7 +13,7 @@
   },
   {
     "id": "post2",
-    "title": "Visit Getty center",
+    "title": "Visiting the Getty",
     "coverImage": "Pictures/Blog/Blog details/2/3.jpg",
     "date": "10/26/2024",
     "images": [
@@ -53,7 +53,7 @@
   },
   {
     "id": "post5",
-    "title": "Picture in Filoli",
+    "title": "Among the flowers of Filoli",
     "coverImage": "Pictures/Blog/cover5.jpg",
     "date": "05/29/2024",
     "images": [
@@ -65,7 +65,7 @@
   },
   {
     "id": "post6",
-    "title": "Be an cosplay model in a Hanfu activity",
+    "title": "Cosplaying for a Hanfu activity",
     "coverImage": "Pictures/Blog/cover6.jpg",
     "date": "05/29/2024",
     "images": [
@@ -78,7 +78,7 @@
   },
   {
     "id": "post7",
-    "title": "Take photos at filoli",
+    "title": "Taking photos at Filoli",
     "coverImage": "Pictures/Blog/cover7.jpg",
     "date": "05/15/2024",
     "images": [
@@ -90,7 +90,7 @@
   },
   {
     "id": "post8",
-    "title": "Preparing to attend Miku’s concert",
+    "title": "Preparing to attend Miku's concert",
     "coverImage": "Pictures/Blog/cover8.jpg",
     "date": "04/08/2024",
     "images": [
@@ -101,7 +101,7 @@
   },
   {
     "id": "post9",
-    "title": "Attend comic conventions",
+    "title": "Attending comic conventions",
     "coverImage": "Pictures/Blog/cover9.jpg",
     "date": "2/9/2024",
     "images": [
