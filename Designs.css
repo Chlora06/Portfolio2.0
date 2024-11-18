@@ -20,6 +20,13 @@
   align-items: center;
   justify-items: center;
 }
+.Wander{
+  background-color: #0151AE;
+  color: #f5f5f5;
+}
+#WanderImage{
+  border-radius: 20px;
+}
 .Green{
   background-color: #2F5233;
   color: #f5f5f5;
